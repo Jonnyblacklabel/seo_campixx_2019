@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+nbconvert = "*"
+RISE = "*"
+ipywidgets = "*"
+requests = "*"
+pandas = "*"
+pandas-gbq = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+bqplot = "*"
+qgrid = "*"
+statsmodels = "*"
+dataset = "*"
+python-dotenv = "*"
+tqdm = "*"
+google-searchconsole = {git = "https://github.com/joshcarty/google-searchconsole"}
+google-api-python-client = "*"
+google-cloud-bigquery = "*"
+google-cloud-storage = "*"
+pydata-google-auth = "*"
+oauth2client = "*"
+fuzzywuzzy = "*"
+python-levenshtein = {path = "./python_Levenshtein-0.12.0-cp37-cp37m-win_amd64.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
